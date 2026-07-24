@@ -1,8 +1,27 @@
 aid: collaborative-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/collaborative-robotics.png
 name: Collaborative Robotics
-description: Collaborative Robotics is a company surfaced as a portfolio company of general-catalyst and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Collaborative Robotics (Cobot) is a Physical AI company founded by Brad Porter
+  building AI-powered collaborative robots that work safely alongside people. Its
+  flagship robot, Proxie, is a human-capable mobile manipulator designed to address
+  labor shortages across warehousing, manufacturing, logistics, and healthcare. The
+  company uses ScoutMap to analyze facility operations and identify automation
+  opportunities, then deploys robots that learn real-world workflow patterns. Backed
+  by General Catalyst, Collaborative Robotics is added to the API Evangelist network
+  as a company profile; it is a hardware / Physical AI provider with no public
+  developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/collaborative-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Robotics
+- Collaborative Robotics
+- Physical AI
+- Automation
+- Artificial Intelligence
+- Warehousing
+- Manufacturing
+- Healthcare
 apis: []
+common:
+- type: DomainSecurity
+  url: security/collaborative-robotics-domain-security.yml
+- type: Website
+  url: https://www.co.bot/
+- type: About
+  url: https://www.co.bot/vision
+- type: Team
+  url: https://www.co.bot/team
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
